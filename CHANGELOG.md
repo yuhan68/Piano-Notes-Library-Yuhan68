@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 - Corrected debounce timing logic for button presses.
 - BPM safeguard changed to 550 BPM for more flexibility. 
 
-## [1.0.0] - 2025-01-10
+## [1.0.0] - 2025-01-18
 ### Initial Release
 The first stable release of the Piano Notes Library, offering foundational functionality for handling piano notes, BPM adjustments, and note durations in music-related projects.
 
