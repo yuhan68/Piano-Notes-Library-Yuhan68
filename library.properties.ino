@@ -1,6 +1,6 @@
 /*Piano_notes
 name=Piano Notes Library
-version=1.0.0
+version=1.1.0
 author=Yuhan Cruz
 maintainer=Yuhan Cruz, ymaxcruz26@gmail.com
 
