@@ -2,10 +2,13 @@
 
 ## Overview
 
-The **Piano Notes Library** is a utility designed to simplify working with piano note definitions and related functionalities in music projects. It provides a streamlined way to handle beats, tempo changes (BPM), note durations, and octave shifts, making it easier to integrate music-related logic into your project.
+The Piano Notes Library is a utility designed to simplify the work of defining piano notes and related functionalities in music projects. It streamlines the definition of note frequencies, handling beats, tempo changes (BPM), note durations, and octave shifts, making it easier to integrate music-related logic into projects.
 
 ## Features
 
+- **Defined Notes**:
+  - All notes from `A0` to `C8` are defined in frequencies for buzzers to play the associated note.
+ 
 - **Dynamic BPM Adjustment**: 
   - Increase or decrease BPM interactively with a button press.
   - Gradual rate changes depending on how long the button is pressed.
@@ -14,7 +17,7 @@ The **Piano Notes Library** is a utility designed to simplify working with piano
   - Automatically compute note durations for whole, half, quarter, eighth, and sixteenth notes based on the current BPM.
 
 - **Octave Control**:
-  - Adjust the octave up or down interactively within a safe range (`C0` to `C8`).
+  - Adjust the octave up or down interactively within a range of (`A0` to `C8`).
 
 - **Debounce Handling**: 
   - Integrated debounce logic ensures reliable button press detection without unintentional repeats.
