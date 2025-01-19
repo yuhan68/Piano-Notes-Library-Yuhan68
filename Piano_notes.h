@@ -124,16 +124,15 @@
 
 
 
-// Global variable to hold beat duration
-void setBPM(int bpm);
-int whole();
-int half();
-int quarter();
-int eighth();
-int sixteenth();
+void setBPM(int bpm); // Global variable to hold beat duration
+int whole(); //Whole Note 
+int half(); //half Note
+int quarter(); //quarter Note
+int eighth(); //eighth Note
+int sixteenth(); //sixteenth Note
 
 //changing the octave
-extern int O; //the default ocatave
+extern int O; //the default octave
 void octave_down(int button);
 void octave_up(int button);
 
