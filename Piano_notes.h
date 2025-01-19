@@ -125,6 +125,8 @@
 
 
 void setBPM(int bpm); // Global variable to hold beat duration
+void BPM_down(int button);
+void BPM_up(int button);
 int whole(); //Whole Note 
 int half(); //Half Note
 int quarter(); //Quarter Note
