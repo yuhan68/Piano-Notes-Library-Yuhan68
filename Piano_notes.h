@@ -126,14 +126,14 @@
 
 void setBPM(int bpm); // Global variable to hold beat duration
 int whole(); //Whole Note 
-int half(); //half Note
-int quarter(); //quarter Note
-int eighth(); //eighth Note
-int sixteenth(); //sixteenth Note
+int half(); //Half Note
+int quarter(); //Quarter Note
+int eighth(); //Eighth Note
+int sixteenth(); //Sixteenth Note
 
 //changing the octave
-extern int O; //the default octave
-void octave_down(int button);
-void octave_up(int button);
+extern int O; //the default octave is set at 3 (It's the letter "O")
+void octave_down(int button); //Use this command to configure a button that would change the octave of a note 
+void octave_up(int button); //e.g., when "O" is three, tone(7, cO) would make the note "c3"
 
 #endif
