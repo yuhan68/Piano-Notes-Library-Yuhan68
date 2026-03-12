@@ -2,7 +2,7 @@
 name=Piano Notes Library
 version=1.1.0
 author=Yuhan Cruz
-maintainer=Yuhan Cruz, ymaxcruz26@gmail.com
+maintainer=Yuhan Cruz
 
 sentence=Provides a predefined set of frequencies for musical notes from A0 to C8, 
 and adds functionalities for piano coding.
@@ -15,4 +15,5 @@ category - Other
 url - https://github.com/yuhan68/Yuhan68-Piano_Notes-Library
 architectures=avr
 */
+
 
